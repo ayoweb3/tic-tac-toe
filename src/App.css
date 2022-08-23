@@ -3,6 +3,7 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
+  
 }
 
 ol, ul {
@@ -16,9 +17,11 @@ ol, ul {
 }
 
 .status {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  
 }
-
 .square {
   background: #fff;
   border: 1px solid #999;
@@ -26,12 +29,12 @@ ol, ul {
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 70px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 70px;
 }
 
 .square:focus {
@@ -45,6 +48,10 @@ ol, ul {
 .game {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  
 }
 
 .game-info {
